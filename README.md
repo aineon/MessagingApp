@@ -87,7 +87,7 @@ Implement logic to ensure that each MMS message contains exactly one type of med
 
 💡 Example Class Structure
 
-public class Message
+```public class Message
 {
     public string Sender { get; set; }
     public string Recipient { get; set; }
@@ -107,7 +107,7 @@ public class MMSMessage : Message
     public bool HasAudio { get; set; }
     public bool HasVideo { get; set; }
     public string MediaFileName { get; set; } // Picture/Audio/Video file name
-}
+}```
 
 Notes:
 The app focuses on applying Object-Oriented Programming principles. Advanced features like message encryption or real-time communication are out of scope for this project.
